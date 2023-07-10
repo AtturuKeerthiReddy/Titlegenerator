@@ -31,6 +31,7 @@ data3 = json.load(open('GB_category_id.json'))
 
 
 
+
 #remove punctuations and convert text to lowercase
 def clean_text(text):
     text = ''.join(e for e in text if e not in string.punctuation).lower()
